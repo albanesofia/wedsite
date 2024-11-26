@@ -1,0 +1,55 @@
+// Reset global
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; // Rend le calcul des dimensions des éléments plus intuitif
+}
+
+// Héritage des polices
+html {
+  font-size: 16px; // Définit la taille de base pour les rem
+}
+
+body {
+  line-height: 1.6;
+  font-family: var(
+    --font-body,
+    sans-serif
+  ); // Fallback si les variables ne sont pas définies
+  color: var(
+    --text-color,
+    #333
+  ); // Fallback si les variables ne sont pas définies
+  background-color: var(
+    --pastel-yellow-light,
+    #fff8d6
+  ); // Fallback si variable absente
+}
+
+// Suppression des styles des listes
+ul,
+ol {
+  list-style: none;
+}
+
+// Suppression des styles des liens
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Suppression des styles des boutons
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+// Suppression des styles des images
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

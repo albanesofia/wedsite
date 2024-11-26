@@ -1,0 +1,87 @@
+@use "../base/variables";
+
+#services {
+  background: var(--pastel-yellow-light);
+  padding: 4rem 1rem;
+  text-align: center;
+
+  h2 {
+    font-family: var(--font-title);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+  }
+
+  p {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: var(--text-color);
+  }
+
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+
+    .card {
+      background: rgba(109, 222, 242, 0.2); // Bleu pastel transparent
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      backdrop-filter: blur(5px); // Ajout d'un flou subtil
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      h3 {
+        font-family: var(--font-title);
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        font-weight: bold; // Texte plus gras
+        color: var(--text-color);
+      }
+
+      p {
+        font-family: var(--font-body);
+        font-size: 1rem;
+        color: var(--text-color);
+        line-height: 1.6;
+      }
+
+      i {
+        font-size: 3rem;
+        color: white;
+        background-image: url("https://i.pinimg.com/736x/c6/51/85/c6518504fc4e38a2d7f52bf94ac1d431.jpg"); // lien-mimosas
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+        position: relative; // Nécessaire pour le fond bleu
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -5px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 60%;
+          height: 20px;
+          background-color: rgba(109, 222, 242, 0.2); // Bleu pastel transparent
+          border-radius: 4px;
+          z-index: -1; // Place le rectangle derrière le texte
+        }
+      }
+    }
+  }
+}

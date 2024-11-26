@@ -1,0 +1,49 @@
+// Import des polices Google
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Raleway:wght@300;500&display=swap");
+
+// Variables globales
+:root {
+  --pastel-yellow-light: #fff8d6;
+  --pastel-yellow: #ffe89c;
+  --pastel-yellow-dark: #ffd85a;
+  --pastel-blue-light: rgba(109, 222, 242, 0.2);
+  --text-color: #333;
+  --font-title: "Dancing Script", cursive;
+  --font-body: "Raleway", sans-serif;
+}
+
+// Styles globaux
+body {
+  font-family: var(--font-body);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: var(--pastel-yellow-light);
+}
+
+// Polices pour les titres
+h1,
+h2,
+h3 {
+  font-family: var(--font-title);
+  color: var(--text-color);
+}
+
+// Liens
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--pastel-yellow-dark);
+}
+
+// Reset de marges/paddings
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
