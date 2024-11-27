@@ -1,0 +1,664 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Raleway:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Raleway:wght@300;500&display=swap");
+:root {
+  --pastel-yellow-light: #fff8d6;
+  --pastel-yellow: #ffe89c;
+  --pastel-yellow-dark: #ffd85a;
+  --pastel-blue-light: rgba(109, 222, 242, 0.2);
+  --text-color: #333;
+  --font-title: "Dancing Script", cursive;
+  --font-body: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: var(--pastel-yellow-light);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-title);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--pastel-yellow-dark);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.6;
+  font-family: var(--font-body, sans-serif);
+  color: var(--text-color, #333);
+  background-color: var(--pastel-yellow-light, #fff8d6);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+:root {
+  --font-title: "Dancing Script", cursive;
+  --font-body: "Raleway", sans-serif;
+  --text-color: #333;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-title);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--pastel-yellow-dark);
+}
+
+blockquote {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #777;
+  border-left: 4px solid var(--pastel-yellow-dark);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+
+h1 {
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#about {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  color: #333;
+  font-family: "Raleway", sans-serif;
+}
+#about .about-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#about .about-header h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  color: #d2691e;
+}
+#about .about-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+#about .about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+#about .about-content .about-image {
+  flex: 1;
+  position: relative;
+}
+#about .about-content .about-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#about .about-content .about-image blockquote {
+  position: absolute;
+  bottom: -20px;
+  left: 10%;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  color: #555;
+  background: rgba(255, 228, 196, 0.8);
+  padding: 0.5rem 1rem;
+  border-left: 4px solid #d2691e;
+  border-radius: 5px;
+}
+#about .about-content .about-text {
+  flex: 1;
+  text-align: left;
+}
+#about .about-content .about-text h2 {
+  font-size: 1.8rem;
+  color: #d2691e;
+  margin-bottom: 1rem;
+}
+#about .about-content .about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+#about .about-content .about-text h3 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+#about .about-footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+#about .about-footer h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  color: #d2691e;
+}
+#about .about-footer p {
+  font-size: 1rem;
+  color: #555;
+}
+
+#contact {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: var(--pastel-yellow-light);
+}
+#contact h2 {
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+#contact p {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+#contact .contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+#contact .contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+#contact .contact-form form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+#contact .contact-form form .form-group label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+#contact .contact-form form .form-group input,
+#contact .contact-form form .form-group textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: var(--font-body);
+  background-color: #fff;
+  transition: border-color 0.3s;
+}
+#contact .contact-form form .form-group input:focus,
+#contact .contact-form form .form-group textarea:focus {
+  border-color: var(--pastel-yellow-dark);
+  outline: none;
+}
+#contact .contact-form form button {
+  padding: 0.8rem 2rem;
+  background: var(--pastel-yellow-dark);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+#contact .contact-form form button:hover {
+  background: #ffbf40;
+}
+@media (max-width: 768px) {
+  #contact {
+    padding: 3rem 1rem;
+  }
+  #contact .contact-form {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
+
+#gallery {
+  padding: 4rem 1rem;
+  text-align: center;
+  background: var(--pastel-yellow-light);
+}
+#gallery h2 {
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+#gallery p {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+#gallery .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+#gallery .gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#gallery .gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  background-color: var(--pastel-yellow);
+  color: var(--text-color);
+  padding: 1rem 0;
+  text-align: center;
+  border-bottom: 2px solid var(--pastel-yellow-dark);
+}
+header h1 {
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  margin: 0;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0.5rem 0 0;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+  font-family: var(--font-body);
+  transition: color 0.3s;
+}
+header nav ul li a:hover {
+  color: var(--pastel-yellow-dark);
+}
+
+#hero {
+  background: var(--pastel-yellow-light);
+  text-align: center;
+  padding: 3rem 1rem;
+}
+#hero h2 {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+#hero p {
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+#hero-slider {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+#hero-slider .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: fade 15s infinite;
+  opacity: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#hero-slider .slide:nth-child(1) {
+  animation-delay: 0s;
+  opacity: 1;
+}
+#hero-slider .slide:nth-child(2) {
+  animation-delay: 5s;
+}
+#hero-slider .slide:nth-child(3) {
+  animation-delay: 10s;
+}
+#hero-slider .slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#hero-slider .caption {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+#hero-slider .caption h2 {
+  color: white;
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+}
+#hero-slider .caption p {
+  color: white;
+  font-size: 1rem;
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 0;
+  }
+  33%, 66% {
+    opacity: 1;
+  }
+}
+#services {
+  background: var(--pastel-yellow-light);
+  padding: 4rem 1rem;
+  text-align: center;
+}
+#services h2 {
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+#services p {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  color: var(--text-color);
+}
+#services .service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+#services .service-cards .card {
+  background: rgba(109, 222, 242, 0.2);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+#services .service-cards .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+#services .service-cards .card h3 {
+  font-family: var(--font-title);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: var(--text-color);
+}
+#services .service-cards .card p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+#services .service-cards .card i {
+  font-size: 3rem;
+  color: white;
+  background-image: url("../images/wedding_pictures/bouquet1.jpg");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+#services .service-cards .card i::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 20px;
+  background-color: rgba(109, 222, 242, 0.2);
+  border-radius: 4px;
+  z-index: -1;
+}
+
+#testimonials {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: var(--pastel-yellow-light);
+}
+#testimonials h2 {
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+#testimonials blockquote {
+  margin: 1rem auto 2rem auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  color: #555;
+}
+#testimonials blockquote p {
+  font-style: italic;
+}
+#testimonials blockquote cite {
+  display: block;
+  font-size: 1rem;
+  color: #777;
+  margin-top: 0.5rem;
+}
+#testimonials .testimonial-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+#testimonials .testimonial-wrapper .testimonial {
+  background: rgba(109, 222, 242, 0.2); /* Bleu pastel transparent */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+}
+#testimonials .testimonial-wrapper .testimonial img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#testimonials .testimonial-wrapper .testimonial .testimonial-text {
+  padding: 1.5rem;
+}
+#testimonials .testimonial-wrapper .testimonial .testimonial-text p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+#testimonials .testimonial-wrapper .testimonial .testimonial-text span {
+  font-weight: bold;
+  color: var(--pastel-pink-dark);
+}
+#testimonials .testimonial-wrapper .testimonial .testimonial-text h4 {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-top: 1rem;
+}
+#testimonials .testimonial-wrapper .testimonial .testimonial-text small {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+#welcome {
+  padding: 4rem 1rem;
+  background: var(--pastel-yellow-light);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+#welcome .welcome-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+#welcome .welcome-text {
+  flex: 1;
+  text-align: left;
+}
+#welcome .welcome-text h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  color: var(--text-color);
+}
+#welcome .welcome-text p {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+#welcome .welcome-text p.highlight {
+  font-size: 1.3rem;
+  color: #d2691e;
+  font-weight: bold;
+}
+#welcome .welcome-image {
+  flex: 1;
+  text-align: center;
+}
+#welcome .welcome-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+section h2 {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}/*# sourceMappingURL=style.css.map */
